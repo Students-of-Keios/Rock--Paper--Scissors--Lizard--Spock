@@ -1,0 +1,3 @@
+C:/Users/taqua/CLionProjects/Rock, Paper, Scissors, Lizard, Spock/cmake-build-debug/CMakeFiles/Rock__Paper__Scissors__Lizard__Spock.dir
+C:/Users/taqua/CLionProjects/Rock, Paper, Scissors, Lizard, Spock/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/taqua/CLionProjects/Rock, Paper, Scissors, Lizard, Spock/cmake-build-debug/CMakeFiles/rebuild_cache.dir

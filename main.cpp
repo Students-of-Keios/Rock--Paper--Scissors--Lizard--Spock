@@ -15,20 +15,24 @@ int main() {
     std::cout << "3) Keo \n";
     std::cout << "shoot! \n";
     std::cin >> user;
+    std::cout << computer;
     if (computer == 1 && user == 1) {
-        std::cout << "tie!";
+        std::cout << " tie!";
     } else if (computer == 2 && user == 2) {
-        std::cout << "tie!";
+        std::cout << " tie!";
     } else if (computer == 3 && user == 3) {
-        std::cout << "tie!";
+        std::cout << " tie!";
     } else if (computer == 1 && user == 3) {
-        std::cout << "computer wins!!";
+        std::cout << " computer wins!!";
     } else if (computer == 2 && user == 1) {
-        std::cout << "computer wins!!";
+        std::cout << " computer wins!!";
+    } else if (computer == 3 && user == 2) {
+        std::cout << " computer wins!!";
     } else if (user == 1 && computer == 3) {
-        std::cout << "you win!!";
-    }else if (user == 2 && computer == 1) {
-
+        std::cout << " you win!!";
+    } else if (user == 2 && computer == 1) {
+        std::cout << " you win!!";
+    } else if (user == 3 && computer == 2) {
+        std::cout << " you win!!";
     }
-
 }

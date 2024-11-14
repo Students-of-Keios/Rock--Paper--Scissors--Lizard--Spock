@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    srand (time(NULL));
+    srand(time(NULL));
 
     int computer = rand() % 3 + 1;
 
@@ -17,9 +17,18 @@ int main() {
     std::cin >> user;
     if (computer == 1 && user == 1) {
         std::cout << "tie!";
-    }else if (computer == 2 && user == 2) {
+    } else if (computer == 2 && user == 2) {
         std::cout << "tie!";
-    }else if (computer == 3 && user == 3) {
+    } else if (computer == 3 && user == 3) {
+        std::cout << "tie!";
+    } else if (computer == 1 && user == 3) {
+        std::cout << "computer wins!!";
+    } else if (computer == 2 && user == 1) {
+        std::cout << "computer wins!!";
+    } else if (user == 1 && computer == 3) {
+        std::cout << "you win!!";
+    }else if (user == 2 && computer == 1) {
 
     }
+
 }

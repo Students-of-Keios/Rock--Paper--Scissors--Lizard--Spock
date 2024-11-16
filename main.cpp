@@ -29,11 +29,14 @@ int main() {
     } else if (computer == 3 && user == 2) {
         std::cout << " computer wins!!";
     } else if (user == 1 && computer == 3) {
-        std::cout << " you win!!";
+        computer -= 1;
+        std::cout << " computer wins!!";
     } else if (user == 2 && computer == 1) {
-        std::cout << " you win!!";
+        computer += 2;
+        std::cout << " computer wins!!";
     } else if (user == 3 && computer == 2) {
-        std::cout << " you win!!";
+        computer -= 1;
+        std::cout << " computer wins!!";
     }
 
     // DONE ROCK ALWAYS WIN
